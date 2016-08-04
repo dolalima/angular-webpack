@@ -30,7 +30,7 @@ module.exports = function makeWebpackConfig () {
    * Karma will set this when it's a test build
    */
   config.entry = isTest ? {} : {
-    app: './src/app/app.js'
+    app: './src/app.js'
   };
 
   /**
@@ -116,7 +116,10 @@ module.exports = function makeWebpackConfig () {
       // Allow loading html through js
       test: /\.html$/,
       loader: 'raw'
-    }]
+    },
+    { test: /\.css$/, exclude: /\.useable\.css$/, loader: "style!css" },
+        { test: /\.useable\.css$/, loader: "style/useable!css" }
+      ]
   };
 
   // ISPARTA LOADER
@@ -158,7 +161,7 @@ module.exports = function makeWebpackConfig () {
     // Render index.html
     config.plugins.push(
       new HtmlWebpackPlugin({
-        template: './src/public/index.html',
+        template: './src/index.html',
         inject: 'body'
       }),
 

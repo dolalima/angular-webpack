@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Foxandxss/angular-webpack-workflow.git"
+    "url": "git+https://github.com/Foxandxss/angular-webpack-workflow.git"
   },
   "author": "Jesus Rodriguez",
   "license": "MIT",
@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/Foxandxss/angular-webpack-workflow",
   "dependencies": {
-    "angular": "^1.5.0"
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.0",
@@ -51,5 +54,7 @@
     "style-loader": "^0.13.0",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "main": "karma.conf.js",
+  "keywords": []
 }
