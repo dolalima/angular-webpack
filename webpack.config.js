@@ -116,9 +116,7 @@ module.exports = function makeWebpackConfig () {
       // Allow loading html through js
       test: /\.html$/,
       loader: 'raw'
-    },
-    { test: /\.css$/, exclude: /\.useable\.css$/, loader: "style!css" },
-        { test: /\.useable\.css$/, loader: "style/useable!css" }
+    }
       ]
   };
 
