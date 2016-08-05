@@ -6,7 +6,7 @@ function header() {
         scope: {
             name: '='
         },
-        templateUrl: 'components/header.component.html'
+        template: require('../components/header.component.html')
     }
 }
 

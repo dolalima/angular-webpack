@@ -6,7 +6,7 @@ function footer() {
         scope: {
             name: '='
         },
-        templateUrl: 'components/footer.component.html'
+        template: require('../components/footer.component.html')
     }
 }
 

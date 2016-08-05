@@ -6,7 +6,7 @@ function sidebar() {
         scope: {
             name: '='
         },
-        templateUrl: 'components/sidebar.component.html'
+        template: require('../components/sidebar.component.html')
     }
 }
 

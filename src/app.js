@@ -1,8 +1,8 @@
 require('bootstrap/dist/css/bootstrap.css')
 require('font-awesome/css/font-awesome.css')
 
-require('./public/styles/main.css')
-require('./public/styles/conecte.css')
+require('./public/styles/dashboard.css')
+//require('./public/styles/conecte.css')
 
 import angular from 'angular'
 import resource from 'angular-resource'
