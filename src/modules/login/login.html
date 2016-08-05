@@ -1,48 +1,48 @@
 <form role="form">
-                    <fieldset>
-                        <div class="form-group">
-                            <button class="btn btn-facebook">
-                                <i class="fa fa-facebook-square pull-left"></i> <span>Entrar usando o
+    <fieldset>
+        <div class="form-group">
+            <button class="btn btn-facebook">
+                <i class="fa fa-facebook-square pull-left"></i> <span>Entrar usando o
                                 Facebook</span>
-                            </button>
-                        </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <div class="col-xs-5"><span class="line"> </span></div>
-                                <div class="col-xs-2" style="text-align: center">OU</div>
-                                <div class="col-xs-5"><span class="line"> </span></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-at"></i></span>
-                                <input class="form-control" placeholder="Seu E-mail" ng-model="vm.username" name="email"
-                                       type="email" autofocus>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                <input class="form-control" placeholder="Sua Senha" ng-model="vm.password"
-                                       name="password" type="password" value="">
-                            </div>
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input name="remember" type="checkbox" value="Remember Me">Remember Me
-                            </label>
-                        </div>
-                        <!-- Change this to a button or input when using this as a form -->
-                        <button ng-click="vm.login()" class="btn btn-default btn-block" style="font-size: 18px; padding: 4px;">
-                            Entrar
-                        </button>
+            </button>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-xs-5"><span class="line"> </span></div>
+                <div class="col-xs-2" style="text-align: center">OU</div>
+                <div class="col-xs-5"><span class="line"> </span></div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-at"></i></span>
+                <input class="form-control" placeholder="Seu E-mail" ng-model="c.username" name="email"
+                       type="email" autofocus>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                <input class="form-control" placeholder="Sua Senha" ng-model="c.password"
+                       name="password" type="password" value="">
+            </div>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input name="remember" type="checkbox" value="Remember Me">Remember Me
+            </label>
+        </div>
+        <!-- Change this to a button or input when using this as a form -->
+        <button ng-click="c.login()" class="btn btn-default btn-block" style="font-size: 18px; padding: 4px;">
+            Entrar
+        </button>
 
-                    </fieldset>
-                    <fieldset style="margin-top: 25px">
-                        <div class="row">
-                            <section class="col-xs-12" style="text-align: center" >
-                                <a href="#" style="margin-top: 50px">AINDA NÃO É CADASTRADO? CADASTRE-SE >> </a>
-                            </section>
-                        </div>
-                    </fieldset>
-                </form>
+    </fieldset>
+    <fieldset style="margin-top: 25px">
+        <div class="row">
+            <section class="col-xs-12" style="text-align: center">
+                <a href="#" style="margin-top: 50px">AINDA NÃO É CADASTRADO? CADASTRE-SE >> </a>
+            </section>
+        </div>
+    </fieldset>
+</form>
