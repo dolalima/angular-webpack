@@ -1,6 +1,9 @@
 require('bootstrap/dist/css/bootstrap.css')
 require('font-awesome/css/font-awesome.css')
 
+require('./public/styles/main.css')
+require('./public/styles/conecte.css')
+
 import angular from 'angular'
 import resource from 'angular-resource'
 import uirouter from 'angular-ui-router'
@@ -12,6 +15,8 @@ import api from './api.config'
 // Modules
 import home from './modules/home'
 import login from './modules/login'
+
+
 
 
 
