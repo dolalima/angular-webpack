@@ -7,7 +7,7 @@ import HomeController from './home.controller'
 import randomNames from '../../services/randomNames.service'
 import greeting    from '../../directives/greeting.directive'
 
-// DI
+// Directives
 import header from '../../directives/header.directive'
 import footer from '../../directives/footer.directive'
 import sidebar from '../../directives/sidebar.directive'

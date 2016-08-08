@@ -18,7 +18,7 @@ export default class LoginController {
             console.debug(response)
             if (response.access_token) {
                 self.AuthenticationService.SetCredentials(self.username, response.access_token)
-                self.$location.path('/')
+                self.$location.path('/home')
             } else {
                 self.FlashService.Error(response.message);
             }

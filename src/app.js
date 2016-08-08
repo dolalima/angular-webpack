@@ -1,4 +1,5 @@
 require('bootstrap/dist/css/bootstrap.css')
+require('bootstrap/dist/js/bootstrap.js')
 require('font-awesome/css/font-awesome.css')
 
 require('./public/styles/dashboard.css')
