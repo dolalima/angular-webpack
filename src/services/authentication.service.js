@@ -1,13 +1,13 @@
-﻿import angular from 'angular'
+﻿let angular = require('angular');
 
 class AuthenticationService {
 
     constructor($http, $cookieStore, $rootScope, $timeout, API_CONFIG) {
-        this.$http = $http
-        this.$cookieStore = $cookieStore
-        this.$rootScope = $rootScope
-        this.$timeout = $timeout
-        this.API_CONFIG = API_CONFIG
+        this.$http = $http;
+        this.$cookieStore = $cookieStore;
+        this.$rootScope = $rootScope;
+        this.$timeout = $timeout;
+        this.API_CONFIG = API_CONFIG;
     }
 
 
@@ -28,7 +28,7 @@ class AuthenticationService {
     }
 
     SetCredentials(username, token) {
-        var authdata = token
+        let authdata = token;
 
         this.$rootScope.globals = {
             currentUser: {
